@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'vue/endroits_interface.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(
     // ProviderScope obligatoire pour Riverpod v2
     const ProviderScope(
